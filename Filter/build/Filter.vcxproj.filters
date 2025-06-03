@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\mypluginprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\myplugincontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\mypluginentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Etienne Quartey-Papa\Downloads\vst-sdk_3.7.9_build-61_2023-10-09\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\myplugincids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\mypluginprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\source\myplugincontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Osc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\resource\D4E36DF89DB15ACAAF029CAB0E8D676E_snapshot.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\resource\D4E36DF89DB15ACAAF029CAB0E8D676E_snapshot_2.0x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Etienne Quartey-Papa\Desktop\Lectures\AP2\Uni_Ap2_Work\Filter\resource\win32resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4B5545E9-84DC-3766-8892-D28DE7525054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{BB33AABE-79E3-3A7A-9F4A-57820F91EF86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F752044-85D7-3DD3-AC40-59904DC8247E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
