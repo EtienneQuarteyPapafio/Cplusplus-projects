@@ -17,20 +17,28 @@ public:
 		return (x * y);
 	}
 
-}; //object realted to class
+}; //object related to class
 
 
-void CRectangle::set_values(int a, int b)
+//class defined
+
+void CRectangle::set_values(int a, int b) //scope operator used to define member of class
 {
 	x = a;
 	y = b;
 }
 
+//external declaration of function
+
 int main()
 {
-	CRectangle rect; //creates an object with the name rect
+	CRectangle rect,rectb; //creates an object with the name rect
+	//can use multiple objects with different values without having to re-declare
+
 	rect.set_values(3, 4);
-	cout << "area: " << rect.area();
+	rectb.set_values(5, 7);
+	cout << "area: " << rect.area()<<endl;
+	cout << "area 2: " << rectb.area()<< endl;
 	return 0;
 
 }
