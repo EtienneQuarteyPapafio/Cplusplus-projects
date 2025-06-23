@@ -7,14 +7,17 @@
 #include <iostream>
 using namespace std;
 
+//constructor example
+
 class CRectangle //class keyword, name of class
 {
-	int x, y; //member 1 and 2 variables private by default
+	int *width, *height; //sets as pointers for dynamic memory allocation
 public:
-	void set_values(int, int);//functions
+	CRectangle (int, int);//functions, constructor
+	~CRectangle(); //Deconstructor
 	int area()
 	{
-		return (x * y);
+		return (*width * *height);
 	}
 
 }; //object related to class
@@ -22,21 +25,30 @@ public:
 
 //class defined
 
-void CRectangle::set_values(int a, int b) //scope operator used to define member of class
+CRectangle::CRectangle(int a, int b) //scope operator used to define member of class
 {
-	x = a;
-	y = b;
+	width = new int;
+	height = new int;
+	*width = a;
+	*height = b;
+};
+
+//declaration of function and constructor
+
+CRectangle::~CRectangle()
+{
+	delete width;
+	delete height;
 }
 
-//external declaration of function
+//desconstructor to free dynamic memory
 
 int main()
 {
-	CRectangle rect, rectb; //creates an object with the name rect
+	CRectangle rect(3, 4), rectb(5, 6); //creates an object with the name rect and passes values 
 	//can use multiple objects with different values without having to re-declare
 
-	rect.set_values(3, 4);
-	rectb.set_values(5, 7);
+	
 	cout << "area: " << rect.area() << endl;
 	cout << "area 2: " << rectb.area() << endl;
 	return 0;
