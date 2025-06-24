@@ -1,6 +1,6 @@
 // Oscillator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-//This program creates an Oscillator for use in DSP
+//This program creates an oscillator for use in DSP
 
 //A sinusoid is expressed as x(t)=Amplitude*Cosine(radian*time+initial phase)
 
@@ -10,7 +10,7 @@
 #include <cmath>
 #include <array>
 
-# define M_PI           3.14159265358979323846  /* pi */
+# define M_PI           3.14159265358979323846  //defines pi
 using namespace std;
 
 class SineOsc {
@@ -39,7 +39,7 @@ int main() {
 
 	double Fs = freq;
 
-	std::array<double, N> wave;
+	array<double, N> wave;
 
 	SineOsc sine(freq, A);
 
