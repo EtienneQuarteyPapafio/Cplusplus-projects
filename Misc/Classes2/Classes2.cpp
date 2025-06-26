@@ -13,8 +13,8 @@ class CRectangle //class keyword, name of class
 {
 	int *width, *height; //sets as pointers for dynamic memory allocation
 public:
-	CRectangle (int, int);//functions, constructor
-	~CRectangle(); //Deconstructor
+	CRectangle (int, int);//functions, declare constructor
+	~CRectangle(); //declare deconstructor
 	int area()
 	{
 		return (*width * *height);
@@ -25,9 +25,9 @@ public:
 
 //class defined
 
-CRectangle::CRectangle(int a, int b) //scope operator used to define member of class
+CRectangle::CRectangle(int a, int b) //scope operator used to define members of construct 
 {
-	width = new int;
+	width = new int; //assigned dynamic memory using new
 	height = new int;
 	*width = a;
 	*height = b;
